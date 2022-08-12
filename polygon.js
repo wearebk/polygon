@@ -34,3 +34,9 @@ const pointInPolygon = (vertex: any, point: any) => {
   }
   return c;
 }
+
+export const polygon = {
+  area: polygonArea,
+  perimeter: polygonPerimeter,
+  pointInPolygon
+}
