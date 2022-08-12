@@ -20,7 +20,6 @@ const polygonPerimeter = (polygon: any) => {
     const dx = polygon[i === polygon.length - 1 ? 0 : i + 1].x - polygon[i].x;
     const dy = polygon[i === polygon.length - 1 ? 0 : i + 1].y - polygon[i].y;
     perimeter = perimeter + Math.pow(dx * dx + dy * dy, 0.5);
-    //console.log(i, 'dx', dx, 'dy', dy);
   }
 
   return perimeter;
