@@ -1,10 +1,10 @@
 # polygon
 ## JS polygon helpers
 
-#### Point:
+### Point:
     point = { x: number, y: number };
 
-#### Polygon:
+### Polygon:
     polygon = [point];
 
 
